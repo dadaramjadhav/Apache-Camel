@@ -1,0 +1,1406 @@
+2019-08-04 18:12:18,370 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:12:18,375 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:12:18,375 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:12:18,514 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:12:18,514 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:12:18,720 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:12:18,732 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:12:18,732 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:12:18,756 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:12:18,758 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:12:18,762 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.395 seconds
+2019-08-04 18:12:19,812 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:12:19,834 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:12:19,841 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:12:19,846 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:12:19,847 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:12:19,853 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:12:20,763 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:12:20,770 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:12:20,778 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:12:20,779 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:12:20,792 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.428 seconds
+2019-08-04 18:12:20,793 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.030 seconds
+2019-08-04 18:14:00,396 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:14:00,400 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:14:00,401 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:14:00,537 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:14:00,537 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:14:00,738 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:14:00,745 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:14:00,746 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:14:00,762 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:14:00,764 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:14:00,767 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.373 seconds
+2019-08-04 18:14:01,841 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:14:01,860 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:14:01,865 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:14:01,869 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:14:01,870 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:14:01,876 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:14:02,769 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:14:02,778 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:14:02,786 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:14:02,787 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:14:02,801 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.410 seconds
+2019-08-04 18:14:02,801 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.032 seconds
+2019-08-04 18:16:48,883 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:16:48,887 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:16:48,887 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:16:49,025 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:16:49,026 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:16:49,230 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:16:49,237 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:16:49,237 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:16:49,254 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:16:49,256 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:16:49,259 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.378 seconds
+2019-08-04 18:16:50,293 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:16:50,316 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:16:50,322 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:16:50,328 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:16:50,329 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:16:50,343 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:16:51,260 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:16:51,264 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:16:51,268 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:16:51,269 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:16:51,276 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.398 seconds
+2019-08-04 18:16:51,276 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2019-08-04 18:18:22,850 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:18:22,853 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:18:22,853 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:18:22,984 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:18:22,985 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:18:23,177 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:18:23,184 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:18:23,184 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:18:23,203 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input1?noop=true
+2019-08-04 18:18:23,206 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:18:23,209 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.361 seconds
+2019-08-04 18:18:24,271 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:18:24,299 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:18:24,305 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:18:24,311 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:18:24,312 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:18:24,322 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:18:25,210 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:18:25,219 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:18:25,229 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input1?noop=true
+2019-08-04 18:18:25,230 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:18:25,239 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.394 seconds
+2019-08-04 18:18:25,239 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.029 seconds
+2019-08-04 18:19:01,113 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:19:01,116 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:19:01,116 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:19:01,250 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:19:01,250 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:19:01,435 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:19:01,442 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:19:01,442 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:19:01,460 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input1?noop=true
+2019-08-04 18:19:01,462 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:19:01,464 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.354 seconds
+2019-08-04 18:19:02,527 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:19:02,554 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:19:02,560 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:19:02,567 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:19:02,568 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:19:02,575 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 18:19:03,466 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:19:03,469 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:19:03,473 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input1?noop=true
+2019-08-04 18:19:03,474 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:19:03,480 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.372 seconds
+2019-08-04 18:19:03,481 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-08-04 18:25:17,076 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:25:17,079 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:25:17,080 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:25:17,197 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:25:17,197 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:25:17,395 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:25:17,401 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:25:17,401 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:25:17,437 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:25:17,439 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:25:17,442 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.369 seconds
+2019-08-04 18:25:18,483 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:25:18,511 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923317429-0-2 on ExchangeId: ID-LIN51006424-1564923317429-0-1). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [        47]
+[route1            ] [log1              ] [log                                                                           ] [        10]
+[route1            ] [to1               ] [file:output                                                                   ] [        18]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:25:18,514 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@71a5b871 for file: GenericFile[file1]
+2019-08-04 18:25:18,519 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:25:18,528 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923317429-0-4 on ExchangeId: ID-LIN51006424-1564923317429-0-3). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [         9]
+[route1            ] [log1              ] [log                                                                           ] [         0]
+[route1            ] [to1               ] [file:output                                                                   ] [         8]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:25:18,530 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@71a5b871 for file: GenericFile[file2]
+2019-08-04 18:25:18,531 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:25:18,535 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923317429-0-6 on ExchangeId: ID-LIN51006424-1564923317429-0-5). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [         3]
+[route1            ] [log1              ] [log                                                                           ] [         0]
+[route1            ] [to1               ] [file:output                                                                   ] [         3]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:25:18,536 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@71a5b871 for file: GenericFile[file3]
+2019-08-04 18:25:19,042 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:25:19,055 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923317429-0-8 on ExchangeId: ID-LIN51006424-1564923317429-0-7). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [        11]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:output                                                                   ] [         9]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:25:19,057 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@71a5b871 for file: GenericFile[file1]
+2019-08-04 18:25:19,059 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:25:19,076 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923317429-0-10 on ExchangeId: ID-LIN51006424-1564923317429-0-9). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [        15]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:output                                                                   ] [        13]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:25:19,079 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@71a5b871 for file: GenericFile[file2]
+2019-08-04 18:25:19,081 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:25:19,086 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923317429-0-12 on ExchangeId: ID-LIN51006424-1564923317429-0-11). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [         4]
+[route1            ] [log1              ] [log                                                                           ] [         0]
+[route1            ] [to1               ] [file:output                                                                   ] [         4]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:25:19,086 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@71a5b871 for file: GenericFile[file3]
+2019-08-04 18:25:19,444 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:25:19,451 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:25:19,460 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:25:19,460 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:25:19,475 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.404 seconds
+2019-08-04 18:25:19,475 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.031 seconds
+2019-08-04 18:29:03,995 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:29:03,999 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:29:03,999 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:29:04,145 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:29:04,145 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:29:04,361 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:29:04,368 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:29:04,368 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:29:04,408 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:29:04,410 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:29:04,414 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.421 seconds
+2019-08-04 18:29:05,441 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:29:05,466 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923544400-0-2 on ExchangeId: ID-LIN51006424-1564923544400-0-1). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [        34]
+[route1            ] [log1              ] [log                                                                           ] [         7]
+[route1            ] [to1               ] [file:output                                                                   ] [        16]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:29:05,469 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5007afc8 for file: GenericFile[file1]
+2019-08-04 18:29:05,471 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:29:05,475 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923544400-0-4 on ExchangeId: ID-LIN51006424-1564923544400-0-3). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [         4]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:output                                                                   ] [         3]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:29:05,477 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5007afc8 for file: GenericFile[file2]
+2019-08-04 18:29:05,478 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:29:05,482 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923544400-0-6 on ExchangeId: ID-LIN51006424-1564923544400-0-5). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [         4]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:output                                                                   ] [         3]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:29:05,483 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5007afc8 for file: GenericFile[file3]
+2019-08-04 18:29:05,990 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:29:06,002 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923544400-0-8 on ExchangeId: ID-LIN51006424-1564923544400-0-7). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [        12]
+[route1            ] [log1              ] [log                                                                           ] [         0]
+[route1            ] [to1               ] [file:output                                                                   ] [         9]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:29:06,004 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5007afc8 for file: GenericFile[file1]
+2019-08-04 18:29:06,006 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:29:06,013 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923544400-0-10 on ExchangeId: ID-LIN51006424-1564923544400-0-9). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [         7]
+[route1            ] [log1              ] [log                                                                           ] [         1]
+[route1            ] [to1               ] [file:output                                                                   ] [         5]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:29:06,014 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5007afc8 for file: GenericFile[file2]
+2019-08-04 18:29:06,015 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 18:29:06,022 | ERROR | CamelLogger.java 203 | Failed delivery for (MessageId: ID-LIN51006424-1564923544400-0-12 on ExchangeId: ID-LIN51006424-1564923544400-0-11). Exhausted after delivery attempt: 1 caught: java.lang.IllegalArgumentException: connectionFactory must be specified
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [file://input?noop=true                                                        ] [         6]
+[route1            ] [log1              ] [log                                                                           ] [         0]
+[route1            ] [to1               ] [file:output                                                                   ] [         4]
+[route1            ] [to2               ] [jms:queue1                                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalArgumentException: connectionFactory must be specified
+	at org.apache.camel.util.ObjectHelper.notNull(ObjectHelper.java:152)
+	at org.apache.camel.component.jms.JmsConfiguration.createConnectionFactory(JmsConfiguration.java:1602)
+	at org.apache.camel.component.jms.JmsConfiguration.getOrCreateConnectionFactory(JmsConfiguration.java:774)
+	at org.apache.camel.component.jms.JmsConfiguration.createTemplateConnectionFactory(JmsConfiguration.java:1619)
+	at org.apache.camel.component.jms.JmsConfiguration.getTemplateConnectionFactory(JmsConfiguration.java:827)
+	at org.apache.camel.component.jms.JmsConfiguration.createInOnlyTemplate(JmsConfiguration.java:671)
+	at org.apache.camel.component.jms.JmsEndpoint.createInOnlyTemplate(JmsEndpoint.java:313)
+	at org.apache.camel.component.jms.JmsProducer.getInOnlyTemplate(JmsProducer.java:492)
+	at org.apache.camel.component.jms.JmsProducer.doSend(JmsProducer.java:412)
+	at org.apache.camel.component.jms.JmsProducer.processInOnly(JmsProducer.java:390)
+	at org.apache.camel.component.jms.JmsProducer.process(JmsProducer.java:153)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:130)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:480)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:222)
+	at org.apache.camel.component.file.GenericFileConsumer.processExchange(GenericFileConsumer.java:452)
+	at org.apache.camel.component.file.GenericFileConsumer.processBatch(GenericFileConsumer.java:221)
+	at org.apache.camel.component.file.GenericFileConsumer.poll(GenericFileConsumer.java:185)
+	at org.apache.camel.support.ScheduledPollConsumer.doRun(ScheduledPollConsumer.java:170)
+	at org.apache.camel.support.ScheduledPollConsumer.run(ScheduledPollConsumer.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-04 18:29:06,023 | WARN | GenericFileOnCompletion.java 142 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5007afc8 for file: GenericFile[file3]
+2019-08-04 18:29:06,416 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:29:06,423 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:29:06,431 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:29:06,432 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:29:06,448 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.459 seconds
+2019-08-04 18:29:06,449 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.032 seconds
+2019-08-04 18:31:27,873 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:31:27,878 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:31:27,878 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:31:28,008 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:31:28,008 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:31:28,150 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:31:28,156 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:31:28,157 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:31:28,189 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:31:28,191 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:31:28,194 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.325 seconds
+2019-08-04 18:31:29,741 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:31:29,852 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:31:29,966 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:1) is starting
+2019-08-04 18:31:29,972 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:1) started
+2019-08-04 18:31:29,973 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:31:30,012 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:31:30,104 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:31:30,105 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:1) is shutting down
+2019-08-04 18:31:30,111 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:1) uptime 0.834 seconds
+2019-08-04 18:31:30,112 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:1) is shutdown
+2019-08-04 18:31:30,121 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:31:30,122 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:2) is starting
+2019-08-04 18:31:30,122 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:31:30,122 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:2) started
+2019-08-04 18:31:30,123 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:31:30,131 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:31:30,143 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:31:30,143 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:2) is shutting down
+2019-08-04 18:31:30,145 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:2) uptime 0.027 seconds
+2019-08-04 18:31:30,145 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:2) is shutdown
+2019-08-04 18:31:30,149 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:31:30,150 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:3) is starting
+2019-08-04 18:31:30,151 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:31:30,151 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:3) started
+2019-08-04 18:31:30,151 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:31:30,159 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:31:30,170 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:31:30,171 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:3) is shutting down
+2019-08-04 18:31:30,172 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:3) uptime 0.026 seconds
+2019-08-04 18:31:30,173 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55536-1564923689835-0:3) is shutdown
+2019-08-04 18:31:30,196 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:31:30,199 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:31:30,202 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:31:30,203 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:31:30,210 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.344 seconds
+2019-08-04 18:31:30,210 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2019-08-04 18:31:54,121 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:31:54,126 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:31:54,126 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:31:54,243 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:31:54,243 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:31:54,381 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:31:54,387 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:31:54,387 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:31:54,420 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:31:54,422 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:31:54,425 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.307 seconds
+2019-08-04 18:31:55,924 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:31:55,960 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:31:56,095 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:1) is starting
+2019-08-04 18:31:56,102 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:1) started
+2019-08-04 18:31:56,102 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:31:56,139 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:31:56,228 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:31:56,228 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:1) is shutting down
+2019-08-04 18:31:56,235 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:1) uptime 0.707 seconds
+2019-08-04 18:31:56,235 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:1) is shutdown
+2019-08-04 18:31:56,244 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:31:56,245 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:2) is starting
+2019-08-04 18:31:56,245 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:31:56,246 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:2) started
+2019-08-04 18:31:56,246 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:31:56,253 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:31:56,263 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:31:56,263 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:2) is shutting down
+2019-08-04 18:31:56,265 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:2) uptime 0.024 seconds
+2019-08-04 18:31:56,265 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:2) is shutdown
+2019-08-04 18:31:56,270 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:31:56,271 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:3) is starting
+2019-08-04 18:31:56,272 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:31:56,272 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:3) started
+2019-08-04 18:31:56,272 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:31:56,280 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:31:56,288 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:31:56,289 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:3) is shutting down
+2019-08-04 18:31:56,290 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:3) uptime 0.023 seconds
+2019-08-04 18:31:56,291 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55555-1564923715947-0:3) is shutdown
+2019-08-04 18:31:59,426 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:31:59,432 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:31:59,439 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:31:59,440 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:31:59,455 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.339 seconds
+2019-08-04 18:31:59,455 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.029 seconds
+2019-08-04 18:33:56,433 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:33:56,438 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:33:56,438 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:33:56,569 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:33:56,570 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:33:56,718 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:33:56,724 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:33:56,725 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:33:56,758 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:33:56,760 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:33:56,763 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.334 seconds
+2019-08-04 18:33:58,270 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:33:58,317 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:33:58,447 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:1) is starting
+2019-08-04 18:33:58,452 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:1) started
+2019-08-04 18:33:58,453 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:33:58,489 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:33:58,581 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:33:58,581 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:1) is shutting down
+2019-08-04 18:33:58,588 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:1) uptime 0.701 seconds
+2019-08-04 18:33:58,588 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:1) is shutdown
+2019-08-04 18:33:58,596 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:33:58,597 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:2) is starting
+2019-08-04 18:33:58,597 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:33:58,597 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:2) started
+2019-08-04 18:33:58,597 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:33:58,606 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:33:58,617 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:33:58,617 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:2) is shutting down
+2019-08-04 18:33:58,619 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:2) uptime 0.026 seconds
+2019-08-04 18:33:58,620 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:2) is shutdown
+2019-08-04 18:33:58,624 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:33:58,625 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:3) is starting
+2019-08-04 18:33:58,626 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:33:58,626 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:3) started
+2019-08-04 18:33:58,626 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:33:58,634 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:33:58,643 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:33:58,644 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:3) is shutting down
+2019-08-04 18:33:58,645 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:3) uptime 0.024 seconds
+2019-08-04 18:33:58,646 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55600-1564923838295-0:3) is shutdown
+2019-08-04 18:34:01,765 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:34:01,775 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:34:01,784 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:34:01,784 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:34:01,803 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.377 seconds
+2019-08-04 18:34:01,804 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.039 seconds
+2019-08-04 18:34:39,983 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:34:39,986 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:34:39,987 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:34:40,125 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:34:40,126 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:34:40,266 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:34:40,272 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:34:40,273 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:34:40,307 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:34:40,309 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:34:40,312 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.332 seconds
+2019-08-04 18:34:41,783 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:34:41,828 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:34:41,956 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:1) is starting
+2019-08-04 18:34:41,963 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:1) started
+2019-08-04 18:34:41,963 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:34:42,001 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:34:42,089 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:34:42,089 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:1) is shutting down
+2019-08-04 18:34:42,096 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:1) uptime 0.693 seconds
+2019-08-04 18:34:42,096 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:1) is shutdown
+2019-08-04 18:34:42,104 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:34:42,105 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:2) is starting
+2019-08-04 18:34:42,106 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:34:42,106 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:2) started
+2019-08-04 18:34:42,106 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:34:42,114 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:34:42,125 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:34:42,125 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:2) is shutting down
+2019-08-04 18:34:42,127 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:2) uptime 0.026 seconds
+2019-08-04 18:34:42,127 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:2) is shutdown
+2019-08-04 18:34:42,131 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:34:42,132 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:3) is starting
+2019-08-04 18:34:42,133 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:34:42,133 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:3) started
+2019-08-04 18:34:42,134 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:34:42,141 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:34:42,152 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:34:42,153 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:3) is shutting down
+2019-08-04 18:34:42,154 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:3) uptime 0.025 seconds
+2019-08-04 18:34:42,155 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55621-1564923881816-0:3) is shutdown
+2019-08-04 18:34:45,314 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:34:45,322 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:34:45,332 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:34:45,332 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:34:45,350 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.373 seconds
+2019-08-04 18:34:45,351 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.037 seconds
+2019-08-04 18:35:15,514 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:35:15,519 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:35:15,519 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:35:15,655 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:35:15,655 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:35:15,811 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:35:15,820 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:35:15,820 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:35:15,859 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:35:15,862 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:35:15,865 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.354 seconds
+2019-08-04 18:35:17,419 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:35:17,459 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:35:17,614 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:1) is starting
+2019-08-04 18:35:17,620 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:1) started
+2019-08-04 18:35:17,620 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:35:17,657 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:35:17,759 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:35:17,759 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:1) is shutting down
+2019-08-04 18:35:17,765 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:1) uptime 0.817 seconds
+2019-08-04 18:35:17,765 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:1) is shutdown
+2019-08-04 18:35:17,774 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:35:17,775 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:2) is starting
+2019-08-04 18:35:17,776 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:35:17,776 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:2) started
+2019-08-04 18:35:17,776 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:35:17,784 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:35:17,794 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:35:17,794 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:2) is shutting down
+2019-08-04 18:35:17,796 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:2) uptime 0.025 seconds
+2019-08-04 18:35:17,797 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:2) is shutdown
+2019-08-04 18:35:17,802 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:35:17,803 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:3) is starting
+2019-08-04 18:35:17,805 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:35:17,806 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:3) started
+2019-08-04 18:35:17,806 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:35:17,816 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:35:17,827 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:35:17,828 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:3) is shutting down
+2019-08-04 18:35:17,829 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:3) uptime 0.030 seconds
+2019-08-04 18:35:17,830 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55647-1564923917451-0:3) is shutdown
+2019-08-04 18:35:20,876 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:35:20,882 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:35:20,888 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:35:20,888 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:35:20,901 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.393 seconds
+2019-08-04 18:35:20,902 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.026 seconds
+2019-08-04 18:36:04,559 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:36:04,564 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:36:04,564 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:36:04,695 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:36:04,696 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:36:04,840 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:36:04,846 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:36:04,847 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:36:04,881 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:36:04,883 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:36:04,885 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.332 seconds
+2019-08-04 18:36:06,359 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:36:06,415 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:36:06,538 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:1) is starting
+2019-08-04 18:36:06,545 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:1) started
+2019-08-04 18:36:06,545 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:36:06,584 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:36:06,674 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:36:06,674 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:1) is shutting down
+2019-08-04 18:36:06,681 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:1) uptime 0.700 seconds
+2019-08-04 18:36:06,681 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:1) is shutdown
+2019-08-04 18:36:06,690 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:36:06,691 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:2) is starting
+2019-08-04 18:36:06,691 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:36:06,692 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:2) started
+2019-08-04 18:36:06,692 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:36:06,700 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:36:06,714 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:36:06,714 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:2) is shutting down
+2019-08-04 18:36:06,716 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:2) uptime 0.030 seconds
+2019-08-04 18:36:06,716 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:2) is shutdown
+2019-08-04 18:36:06,721 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:36:06,722 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:3) is starting
+2019-08-04 18:36:06,723 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:36:06,723 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:3) started
+2019-08-04 18:36:06,724 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:36:06,735 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:36:06,744 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:36:06,744 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:3) is shutting down
+2019-08-04 18:36:06,746 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:3) uptime 0.028 seconds
+2019-08-04 18:36:06,746 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55686-1564923966411-0:3) is shutdown
+2019-08-04 18:36:09,887 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:36:09,897 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:36:09,909 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:36:09,910 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:36:09,924 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.372 seconds
+2019-08-04 18:36:09,924 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.037 seconds
+2019-08-04 18:36:51,909 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:36:51,914 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:36:51,914 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:36:52,035 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:36:52,036 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:36:52,189 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:36:52,197 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 18:36:52,197 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 18:36:52,233 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 18:36:52,235 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:36:52,238 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.332 seconds
+2019-08-04 18:36:53,852 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:36:53,917 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:36:54,063 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:1) is starting
+2019-08-04 18:36:54,074 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:1) started
+2019-08-04 18:36:54,074 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:36:54,168 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:36:54,312 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:36:54,312 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:1) is shutting down
+2019-08-04 18:36:54,324 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:1) uptime 0.992 seconds
+2019-08-04 18:36:54,325 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:1) is shutdown
+2019-08-04 18:36:54,340 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:36:54,344 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:2) is starting
+2019-08-04 18:36:54,356 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:36:54,356 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:2) started
+2019-08-04 18:36:54,357 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:36:54,373 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:36:54,390 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:36:54,390 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:2) is shutting down
+2019-08-04 18:36:54,392 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:2) uptime 0.056 seconds
+2019-08-04 18:36:54,393 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:2) is shutdown
+2019-08-04 18:36:54,399 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:36:54,400 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:3) is starting
+2019-08-04 18:36:57,239 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:36:57,253 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:36:57,269 | INFO | DefaultShutdownStrategy.java 623 | Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route1 = 2]
+2019-08-04 18:36:57,279 | INFO | DefaultShutdownStrategy.java 750 | There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-LIN51006424-1564924012225-0-3, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=2885, duration=2885]
+2019-08-04 18:36:58,279 | INFO | DefaultShutdownStrategy.java 623 | Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route1 = 2]
+2019-08-04 18:36:58,280 | INFO | DefaultShutdownStrategy.java 750 | There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-LIN51006424-1564924012225-0-3, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=3886, duration=3886]
+2019-08-04 18:36:59,281 | INFO | DefaultShutdownStrategy.java 623 | Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 298 seconds. Inflights per route: [route1 = 2]
+2019-08-04 18:36:59,282 | INFO | DefaultShutdownStrategy.java 750 | There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-LIN51006424-1564924012225-0-3, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=4888, duration=4888]
+2019-08-04 18:37:00,284 | INFO | DefaultShutdownStrategy.java 623 | Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 297 seconds. Inflights per route: [route1 = 2]
+2019-08-04 18:37:00,285 | INFO | DefaultShutdownStrategy.java 750 | There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-LIN51006424-1564924012225-0-3, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=5891, duration=5891]
+2019-08-04 18:37:01,285 | INFO | DefaultShutdownStrategy.java 623 | Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route1 = 2]
+2019-08-04 18:37:01,286 | INFO | DefaultShutdownStrategy.java 750 | There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-LIN51006424-1564924012225-0-3, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=6892, duration=6892]
+2019-08-04 18:37:02,286 | INFO | DefaultShutdownStrategy.java 623 | Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 295 seconds. Inflights per route: [route1 = 2]
+2019-08-04 18:37:02,287 | INFO | DefaultShutdownStrategy.java 750 | There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-LIN51006424-1564924012225-0-3, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=7893, duration=7893]
+2019-08-04 18:37:03,288 | INFO | DefaultShutdownStrategy.java 623 | Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 294 seconds. Inflights per route: [route1 = 2]
+2019-08-04 18:37:03,289 | INFO | DefaultShutdownStrategy.java 750 | There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-LIN51006424-1564924012225-0-3, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=8895, duration=8895]
+2019-08-04 18:37:04,290 | INFO | DefaultShutdownStrategy.java 623 | Waiting as there are still 2 inflight and pending exchanges to complete, timeout in 293 seconds. Inflights per route: [route1 = 2]
+2019-08-04 18:37:04,290 | INFO | DefaultShutdownStrategy.java 750 | There are 1 inflight exchanges:
+	InflightExchange: [exchangeId=ID-LIN51006424-1564924012225-0-3, fromRouteId=route1, atRouteId=route1, nodeId=to1, elapsed=9896, duration=9896]
+2019-08-04 18:37:04,410 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:3) started
+2019-08-04 18:37:04,411 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:37:04,418 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:37:04,441 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:37:04,458 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:37:04,458 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:3) is shutting down
+2019-08-04 18:37:04,463 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:3) uptime 10.068 seconds
+2019-08-04 18:37:04,463 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55724-1564924013880-0:3) is shutdown
+2019-08-04 18:37:05,294 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 18:37:05,295 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 8 seconds
+2019-08-04 18:37:05,312 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 13.409 seconds
+2019-08-04 18:37:05,313 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 8.074 seconds
+2019-08-04 18:37:30,287 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 18:37:30,294 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 18:37:30,294 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 18:37:30,485 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 18:37:30,486 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 18:37:30,686 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 18:37:31,204 | INFO | BrokerService.java 683 | Using Persistence Adapter: MemoryPersistenceAdapter
+2019-08-04 18:37:31,238 | INFO | ManagementContext.java 156 | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-08-04 18:37:31,366 | INFO | BrokerService.java 746 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55743-1564924051232-0:1) is starting
+2019-08-04 18:37:31,373 | INFO | BrokerService.java 773 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55743-1564924051232-0:1) started
+2019-08-04 18:37:31,374 | INFO | BrokerService.java 774 | For help or more information please see: http://activemq.apache.org
+2019-08-04 18:37:31,425 | INFO | TransportConnector.java 263 | Connector vm://localhost started
+2019-08-04 18:37:31,472 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: test-jms://queue:test.queue
+2019-08-04 18:37:31,475 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 18:37:31,478 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 1.195 seconds
+2019-08-04 18:37:32,641 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 18:37:32,652 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 18:37:32,671 | INFO | TransportConnector.java 294 | Connector vm://localhost stopped
+2019-08-04 18:37:32,671 | INFO | BrokerService.java 836 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55743-1564924051232-0:1) is shutting down
+2019-08-04 18:37:32,682 | INFO | BrokerService.java 896 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55743-1564924051232-0:1) uptime 1.875 seconds
+2019-08-04 18:37:32,682 | INFO | BrokerService.java 898 | Apache ActiveMQ 5.15.9 (localhost, ID:LIN51006424-55743-1564924051232-0:1) is shutdown
+2019-08-04 18:37:32,683 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: test-jms://queue:test.queue
+2019-08-04 18:37:32,684 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 18:37:32,692 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 2.412 seconds
+2019-08-04 18:37:32,693 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.052 seconds
+2019-08-04 19:05:24,496 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 19:05:24,500 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 19:05:24,500 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 19:05:24,645 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 19:05:24,645 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 19:05:24,834 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 19:05:24,841 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 19:05:24,841 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 19:05:24,858 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 19:05:24,860 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 19:05:24,862 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.369 seconds
+2019-08-04 19:05:25,935 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 19:05:25,952 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:05:25,958 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 19:05:25,966 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:05:25,967 | INFO | CamelLogger.java 158 | file copy started
+2019-08-04 19:05:25,972 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:05:29,864 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 19:05:29,874 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 19:05:29,885 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 19:05:29,886 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 19:05:29,904 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.413 seconds
+2019-08-04 19:05:29,904 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.040 seconds
+2019-08-04 19:06:20,258 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 19:06:20,262 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 19:06:20,262 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 19:06:20,401 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 19:06:20,402 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 19:06:20,594 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 19:06:20,602 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 19:06:20,602 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 19:06:20,618 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 19:06:20,620 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 19:06:20,623 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.368 seconds
+2019-08-04 19:06:21,691 | INFO | CamelLogger.java 158 | level:?INFO file copy started
+2019-08-04 19:06:21,708 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:06:21,713 | INFO | CamelLogger.java 158 | level:?INFO file copy started
+2019-08-04 19:06:21,717 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:06:21,718 | INFO | CamelLogger.java 158 | level:?INFO file copy started
+2019-08-04 19:06:21,723 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:06:25,624 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 19:06:25,635 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 19:06:25,650 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 19:06:25,651 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 19:06:25,659 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.407 seconds
+2019-08-04 19:06:25,659 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.035 seconds
+2019-08-04 19:06:45,686 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 19:06:45,689 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 19:06:45,689 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 19:06:45,846 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 19:06:45,846 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 19:06:46,052 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 19:06:46,059 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 19:06:46,059 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 19:06:46,076 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 19:06:46,078 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 19:06:46,081 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.397 seconds
+2019-08-04 19:06:47,137 | INFO | CamelLogger.java 158 | level:?ERROR file copy started
+2019-08-04 19:06:47,159 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:06:47,165 | INFO | CamelLogger.java 158 | level:?ERROR file copy started
+2019-08-04 19:06:47,169 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:06:47,170 | INFO | CamelLogger.java 158 | level:?ERROR file copy started
+2019-08-04 19:06:47,175 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:06:51,083 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 19:06:51,090 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 19:06:51,099 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 19:06:51,100 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 19:06:51,117 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.435 seconds
+2019-08-04 19:06:51,117 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.034 seconds
+2019-08-04 19:08:32,855 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-04 19:08:32,859 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-04 19:08:32,860 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-04 19:08:33,000 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-04 19:08:33,001 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-04 19:08:33,196 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 19:08:33,202 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 19:08:33,203 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 19:08:33,221 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://input?noop=true
+2019-08-04 19:08:33,223 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-04 19:08:33,226 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.372 seconds
+2019-08-04 19:08:34,307 | INFO | CamelLogger.java 158 | level:?ERROR file copy started
+2019-08-04 19:08:34,318 | ERROR | CamelLogger.java 155 | Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1]]]
+2019-08-04 19:08:34,333 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:08:34,339 | INFO | CamelLogger.java 158 | level:?ERROR file copy started
+2019-08-04 19:08:34,339 | ERROR | CamelLogger.java 155 | Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2]]]
+2019-08-04 19:08:34,344 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:08:34,345 | INFO | CamelLogger.java 158 | level:?ERROR file copy started
+2019-08-04 19:08:34,346 | ERROR | CamelLogger.java 155 | Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file3]]]
+2019-08-04 19:08:34,349 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-04 19:08:38,227 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-04 19:08:38,233 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 19:08:38,240 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://input?noop=true
+2019-08-04 19:08:38,241 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 19:08:38,254 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.403 seconds
+2019-08-04 19:08:38,255 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.028 seconds
+2019-08-05 22:52:02,015 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-05 22:52:02,022 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-05 22:52:02,022 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-05 22:52:02,448 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-05 22:52:02,448 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-05 22:52:03,012 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-05 22:52:03,028 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-05 22:52:03,028 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-05 22:52:03,097 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://c:/input?noop=true
+2019-08-05 22:52:03,126 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-05 22:52:03,141 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 1.120 seconds
+2019-08-05 22:52:04,236 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 22:52:04,270 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 22:52:04,284 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 22:52:08,143 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-05 22:52:08,149 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-05 22:52:08,155 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://c:/input?noop=true
+2019-08-05 22:52:08,156 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-05 22:52:08,165 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 6.158 seconds
+2019-08-05 22:52:08,166 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.023 seconds
+2019-08-05 23:03:34,171 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-05 23:03:34,175 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-05 23:03:34,175 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-05 23:03:34,304 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-05 23:03:34,304 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-05 23:03:34,474 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-05 23:03:34,481 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-05 23:03:34,481 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-05 23:03:34,497 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://c:/input?noop=true
+2019-08-05 23:03:34,499 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-05 23:03:34,502 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.332 seconds
+2019-08-05 23:03:35,566 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 23:03:35,570 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 23:03:35,579 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 23:03:35,582 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 23:03:35,591 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 23:03:35,595 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-05 23:03:39,504 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-05 23:03:39,511 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-05 23:03:39,520 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://c:/input?noop=true
+2019-08-05 23:03:39,521 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-05 23:03:39,539 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.371 seconds
+2019-08-05 23:03:39,540 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.035 seconds
+2019-08-06 23:41:01,236 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-06 23:41:01,241 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-06 23:41:01,241 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-06 23:41:01,418 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-06 23:41:01,418 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-06 23:41:01,607 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-06 23:41:01,614 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-06 23:41:01,614 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-06 23:41:01,632 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://c:/input?noop=true
+2019-08-06 23:41:01,634 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-06 23:41:01,637 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.405 seconds
+2019-08-06 23:41:02,768 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-06 23:41:02,775 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-06 23:41:02,784 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-06 23:41:06,639 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-06 23:41:06,648 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-06 23:41:06,659 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://c:/input?noop=true
+2019-08-06 23:41:06,660 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-06 23:41:06,673 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.444 seconds
+2019-08-06 23:41:06,674 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.035 seconds
+2019-08-07 12:17:10,881 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:17:10,884 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:17:10,884 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:17:11,049 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:17:11,049 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:17:11,234 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:17:11,249 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.370 seconds
+2019-08-07 12:17:11,249 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-08-07 12:17:39,271 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:17:39,276 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:17:39,276 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:17:39,421 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:17:39,422 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:17:39,651 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-07 12:17:39,658 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-07 12:17:39,659 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-07 12:17:39,679 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://c:/input?noop=true
+2019-08-07 12:17:39,681 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-07 12:17:39,684 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.417 seconds
+2019-08-07 12:17:40,769 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:17:40,777 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:17:40,781 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:17:40,785 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:17:44,685 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:17:44,692 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-07 12:17:44,703 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://c:/input?noop=true
+2019-08-07 12:17:44,705 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-07 12:17:44,716 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.452 seconds
+2019-08-07 12:17:44,716 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.031 seconds
+2019-08-07 12:18:11,455 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:18:11,458 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:18:11,458 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:18:11,594 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:18:11,594 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:18:11,813 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-07 12:18:11,819 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-07 12:18:11,820 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-07 12:18:11,834 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://c:/input?noop=true
+2019-08-07 12:18:11,836 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-07 12:18:11,839 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.387 seconds
+2019-08-07 12:18:12,925 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:18:12,934 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:18:12,939 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:18:12,941 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:18:16,839 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:18:16,846 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-07 12:18:16,855 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://c:/input?noop=true
+2019-08-07 12:18:16,855 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-07 12:18:16,869 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.420 seconds
+2019-08-07 12:18:16,870 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.030 seconds
+2019-08-07 12:20:17,401 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:20:17,405 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:20:17,405 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:20:17,542 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:20:17,542 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:20:17,756 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-07 12:20:17,763 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-07 12:20:17,763 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-07 12:20:17,781 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://c:/input?noop=true
+2019-08-07 12:20:17,783 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-07 12:20:17,785 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.388 seconds
+2019-08-07 12:20:18,870 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:20:18,879 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:20:18,885 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:20:18,887 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 12:20:22,787 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:20:22,791 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-07 12:20:22,796 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://c:/input?noop=true
+2019-08-07 12:20:22,797 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-07 12:20:22,805 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.409 seconds
+2019-08-07 12:20:22,805 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2019-08-07 12:33:13,023 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:33:13,027 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:33:13,027 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:33:13,158 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:33:13,159 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:33:13,274 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:33:13,289 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.268 seconds
+2019-08-07 12:33:13,289 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-08-07 12:34:31,738 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:34:31,741 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:34:31,741 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:34:31,877 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:34:31,877 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:34:31,989 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:34:32,003 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.266 seconds
+2019-08-07 12:34:32,004 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-08-07 12:34:50,934 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:34:50,937 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:34:50,937 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:34:51,072 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:34:51,072 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:34:51,183 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:34:51,196 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.264 seconds
+2019-08-07 12:34:51,197 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2019-08-07 12:35:10,940 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:35:10,944 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:35:10,944 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:35:11,083 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:35:11,084 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:35:11,188 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:35:11,217 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.278 seconds
+2019-08-07 12:35:11,217 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.029 seconds
+2019-08-07 12:35:44,779 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:35:44,783 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:35:44,783 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:35:44,924 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:35:44,924 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:35:45,033 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:35:45,047 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.269 seconds
+2019-08-07 12:35:45,048 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-08-07 12:35:58,692 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:35:58,696 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:35:58,696 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:35:58,834 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:35:58,834 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:35:58,943 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:35:58,964 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.271 seconds
+2019-08-07 12:35:58,964 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.021 seconds
+2019-08-07 12:36:55,452 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:36:55,456 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:36:55,456 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:36:55,598 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:36:55,599 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:36:55,709 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:36:55,728 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.277 seconds
+2019-08-07 12:36:55,728 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2019-08-07 12:37:07,455 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:37:07,459 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:37:07,459 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:37:07,601 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:37:07,601 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:37:07,712 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:37:07,727 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.274 seconds
+2019-08-07 12:37:07,727 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-08-07 12:37:26,336 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:37:26,340 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:37:26,340 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:37:26,479 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:37:26,479 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:37:26,600 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:37:26,615 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.280 seconds
+2019-08-07 12:37:26,615 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2019-08-07 12:37:44,692 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 12:37:44,695 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 12:37:44,695 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 12:37:44,831 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 12:37:44,832 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 12:37:44,935 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 12:37:44,950 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 0.261 seconds
+2019-08-07 12:37:44,951 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2019-08-07 13:20:18,201 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 13:20:18,205 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 13:20:18,205 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 13:20:18,364 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 13:20:18,364 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 13:20:18,620 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-07 13:20:18,627 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-07 13:20:18,628 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-07 13:20:18,647 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://c:/input?noop=true
+2019-08-07 13:20:18,649 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-07 13:20:18,655 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.453 seconds
+2019-08-07 13:20:19,759 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 13:20:19,768 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 13:20:19,771 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 13:20:19,775 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 13:20:23,657 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 13:20:23,669 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-07 13:20:23,681 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://c:/input?noop=true
+2019-08-07 13:20:23,681 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-07 13:20:23,695 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.499 seconds
+2019-08-07 13:20:23,695 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.038 seconds
+2019-08-07 13:20:38,588 | INFO | AbstractCamelContext.java 2272 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is starting
+2019-08-07 13:20:38,591 | INFO | AbstractCamelContext.java 2442 | Tracing is enabled on CamelContext: camel-1
+2019-08-07 13:20:38,591 | INFO | DefaultManagementStrategy.java 161 | JMX is disabled
+2019-08-07 13:20:38,717 | INFO | DefaultTypeConverter.java 77 | Type converters loaded (fast: 197, scanned: 3)
+2019-08-07 13:20:38,717 | WARN | DefaultTypeConverter.java 78 | Annotation scanning mode loaded 3 type converters. Its recommended to migrate to @Converter(loader = true) for fast type converter mode.
+2019-08-07 13:20:38,922 | INFO | AbstractCamelContext.java 2570 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-07 13:20:38,932 | INFO | FileEndpoint.java 116 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-07 13:20:38,932 | INFO | FileEndpoint.java 122 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-07 13:20:38,951 | INFO | AbstractCamelContext.java 3180 | Route: route1 started and consuming from: file://c:/input?noop=true
+2019-08-07 13:20:38,954 | INFO | AbstractCamelContext.java 2328 | Total 1 routes, of which 1 are started
+2019-08-07 13:20:38,957 | INFO | AbstractCamelContext.java 2333 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) started in 0.371 seconds
+2019-08-07 13:20:40,050 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 13:20:40,056 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 13:20:40,059 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 13:20:40,062 | INFO | CamelLogger.java 158 | file copy finished
+2019-08-07 13:20:43,959 | INFO | AbstractCamelContext.java 2615 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutting down
+2019-08-07 13:20:43,967 | INFO | DefaultShutdownStrategy.java 187 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-07 13:20:43,978 | INFO | DefaultShutdownStrategy.java 663 | Route: route1 shutdown complete, was consuming from: file://c:/input?noop=true
+2019-08-07 13:20:43,979 | INFO | DefaultShutdownStrategy.java 252 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-07 13:20:43,996 | INFO | AbstractCamelContext.java 2731 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) uptime 5.413 seconds
+2019-08-07 13:20:43,997 | INFO | AbstractCamelContext.java 2732 | Apache Camel 3.0.0-M4 (CamelContext: camel-1) is shutdown in 0.038 seconds

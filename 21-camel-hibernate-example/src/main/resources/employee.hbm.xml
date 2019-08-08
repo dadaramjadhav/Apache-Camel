@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.jboss.org/dtd/hibernate/hibernate-mapping.dtd">
+
+<hibernate-mapping>
+
+	<class name="com.capgemini.Employee" schema="hibernate" table="employee">
+
+		<id name="id">
+			<generator class="assigned"/>
+		</id>
+
+		<property name="name" length="8"/>
+	</class>
+
+</hibernate-mapping>

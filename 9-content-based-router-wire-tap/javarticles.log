@@ -1,0 +1,147 @@
+2019-08-04 20:21:58,197 | INFO | AbstractApplicationContext.java 510 | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:21:58 IST 2019]; root of context hierarchy
+2019-08-04 20:21:58,246 | INFO | XmlBeanDefinitionReader.java 315 | Loading XML bean definitions from class path resource [context.xml]
+2019-08-04 20:21:59,139 | INFO | DefaultListableBeanFactory.java 598 | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:21:59,375 | INFO | DefaultCamelContext.java 1619 | Apache Camel 2.13.0 (CamelContext: camel-1) is starting
+2019-08-04 20:21:59,376 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2019-08-04 20:21:59,500 | INFO | DefaultTypeConverter.java 50 | Loaded 176 type converters
+2019-08-04 20:21:59,630 | INFO | DefaultCamelContext.java 1806 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2019-08-04 20:21:59,631 | INFO | DefaultCamelContext.java 1816 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 20:21:59,635 | INFO | FileEndpoint.java 83 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 20:21:59,636 | INFO | FileEndpoint.java 89 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 20:21:59,679 | INFO | DefaultCamelContext.java 2310 | Route: route1 started and consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:21:59,679 | INFO | DefaultCamelContext.java 1654 | Total 1 routes, of which 1 is started.
+2019-08-04 20:21:59,681 | INFO | DefaultCamelContext.java 1655 | Apache Camel 2.13.0 (CamelContext: camel-1) started in 0.305 seconds
+2019-08-04 20:22:43,851 | INFO | AbstractApplicationContext.java 510 | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:22:43 IST 2019]; root of context hierarchy
+2019-08-04 20:22:43,917 | INFO | XmlBeanDefinitionReader.java 315 | Loading XML bean definitions from class path resource [context.xml]
+2019-08-04 20:22:44,598 | INFO | DefaultListableBeanFactory.java 598 | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:22:44,839 | INFO | DefaultCamelContext.java 1619 | Apache Camel 2.13.0 (CamelContext: camel-1) is starting
+2019-08-04 20:22:44,840 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2019-08-04 20:22:44,959 | INFO | DefaultTypeConverter.java 50 | Loaded 176 type converters
+2019-08-04 20:22:45,064 | INFO | DefaultCamelContext.java 1806 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2019-08-04 20:22:45,064 | INFO | DefaultCamelContext.java 1816 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 20:22:45,070 | INFO | FileEndpoint.java 83 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 20:22:45,070 | INFO | FileEndpoint.java 89 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 20:22:45,105 | INFO | DefaultCamelContext.java 2310 | Route: route1 started and consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:22:45,106 | INFO | DefaultCamelContext.java 1654 | Total 1 routes, of which 1 is started.
+2019-08-04 20:22:45,108 | INFO | DefaultCamelContext.java 1655 | Apache Camel 2.13.0 (CamelContext: camel-1) started in 0.268 seconds
+2019-08-04 20:24:20,970 | INFO | AbstractApplicationContext.java 510 | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:24:20 IST 2019]; root of context hierarchy
+2019-08-04 20:24:21,021 | INFO | XmlBeanDefinitionReader.java 315 | Loading XML bean definitions from class path resource [context.xml]
+2019-08-04 20:24:21,702 | INFO | DefaultListableBeanFactory.java 598 | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:24:21,940 | INFO | DefaultCamelContext.java 1619 | Apache Camel 2.13.0 (CamelContext: camel-1) is starting
+2019-08-04 20:24:21,940 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2019-08-04 20:24:22,064 | INFO | DefaultTypeConverter.java 50 | Loaded 176 type converters
+2019-08-04 20:24:22,179 | INFO | DefaultCamelContext.java 1806 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2019-08-04 20:24:22,180 | INFO | DefaultCamelContext.java 1816 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 20:24:22,185 | INFO | FileEndpoint.java 83 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 20:24:22,186 | INFO | FileEndpoint.java 89 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 20:24:22,225 | INFO | DefaultCamelContext.java 2310 | Route: route1 started and consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:24:22,225 | INFO | DefaultCamelContext.java 1654 | Total 1 routes, of which 1 is started.
+2019-08-04 20:24:22,228 | INFO | DefaultCamelContext.java 1655 | Apache Camel 2.13.0 (CamelContext: camel-1) started in 0.287 seconds
+2019-08-04 20:25:10,764 | INFO | AbstractApplicationContext.java 510 | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:25:10 IST 2019]; root of context hierarchy
+2019-08-04 20:25:10,837 | INFO | XmlBeanDefinitionReader.java 315 | Loading XML bean definitions from class path resource [context.xml]
+2019-08-04 20:25:11,504 | INFO | DefaultListableBeanFactory.java 598 | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:25:11,756 | INFO | DefaultCamelContext.java 1619 | Apache Camel 2.13.0 (CamelContext: camel-1) is starting
+2019-08-04 20:25:11,757 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2019-08-04 20:25:11,887 | INFO | DefaultTypeConverter.java 50 | Loaded 176 type converters
+2019-08-04 20:25:12,019 | INFO | DefaultCamelContext.java 1806 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2019-08-04 20:25:12,019 | INFO | DefaultCamelContext.java 1816 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 20:25:12,023 | INFO | FileEndpoint.java 83 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 20:25:12,024 | INFO | FileEndpoint.java 89 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 20:25:12,056 | INFO | DefaultCamelContext.java 2310 | Route: route1 started and consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:25:12,056 | INFO | DefaultCamelContext.java 1654 | Total 1 routes, of which 1 is started.
+2019-08-04 20:25:12,058 | INFO | DefaultCamelContext.java 1655 | Apache Camel 2.13.0 (CamelContext: camel-1) started in 0.301 seconds
+2019-08-04 20:25:36,163 | INFO | AbstractApplicationContext.java 510 | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:25:36 IST 2019]; root of context hierarchy
+2019-08-04 20:25:36,230 | INFO | XmlBeanDefinitionReader.java 315 | Loading XML bean definitions from class path resource [context.xml]
+2019-08-04 20:25:36,922 | INFO | DefaultListableBeanFactory.java 598 | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:25:37,133 | INFO | DefaultCamelContext.java 1619 | Apache Camel 2.13.0 (CamelContext: camel-1) is starting
+2019-08-04 20:25:37,135 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2019-08-04 20:25:37,302 | INFO | DefaultTypeConverter.java 50 | Loaded 176 type converters
+2019-08-04 20:25:37,443 | INFO | DefaultCamelContext.java 1806 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2019-08-04 20:25:37,443 | INFO | DefaultCamelContext.java 1816 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 20:25:37,449 | INFO | FileEndpoint.java 83 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 20:25:37,450 | INFO | FileEndpoint.java 89 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 20:25:37,486 | INFO | DefaultCamelContext.java 2310 | Route: route1 started and consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:25:37,487 | INFO | DefaultCamelContext.java 1654 | Total 1 routes, of which 1 is started.
+2019-08-04 20:25:37,489 | INFO | DefaultCamelContext.java 1655 | Apache Camel 2.13.0 (CamelContext: camel-1) started in 0.355 seconds
+2019-08-04 20:26:41,837 | INFO | AbstractApplicationContext.java 510 | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:26:41 IST 2019]; root of context hierarchy
+2019-08-04 20:26:41,912 | INFO | XmlBeanDefinitionReader.java 315 | Loading XML bean definitions from class path resource [context.xml]
+2019-08-04 20:26:42,679 | INFO | DefaultListableBeanFactory.java 598 | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:26:42,926 | INFO | DefaultCamelContext.java 1619 | Apache Camel 2.13.0 (CamelContext: camel-1) is starting
+2019-08-04 20:26:42,927 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2019-08-04 20:26:43,070 | INFO | DefaultTypeConverter.java 50 | Loaded 176 type converters
+2019-08-04 20:26:43,224 | INFO | DefaultCamelContext.java 1806 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2019-08-04 20:26:43,224 | INFO | DefaultCamelContext.java 1816 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 20:26:43,228 | INFO | FileEndpoint.java 83 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 20:26:43,228 | INFO | FileEndpoint.java 89 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 20:26:43,263 | INFO | DefaultCamelContext.java 2310 | Route: route1 started and consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:26:43,264 | INFO | DefaultCamelContext.java 1654 | Total 1 routes, of which 1 is started.
+2019-08-04 20:26:43,266 | INFO | DefaultCamelContext.java 1655 | Apache Camel 2.13.0 (CamelContext: camel-1) started in 0.340 seconds
+2019-08-04 20:26:59,684 | INFO | DefaultCamelContext.java 1833 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutting down
+2019-08-04 20:26:59,686 | INFO | DefaultShutdownStrategy.java 173 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 20:26:59,698 | INFO | DefaultShutdownStrategy.java 610 | Route: route1 shutdown complete, was consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:26:59,702 | INFO | DefaultShutdownStrategy.java 223 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 20:26:59,714 | INFO | DefaultCamelContext.java 1907 | Apache Camel 2.13.0 (CamelContext: camel-1) uptime 5 minutes
+2019-08-04 20:26:59,714 | INFO | DefaultCamelContext.java 1908 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutdown in 0.029 seconds
+2019-08-04 20:26:59,715 | INFO | AbstractApplicationContext.java 1042 | Closing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:21:58 IST 2019]; root of context hierarchy
+2019-08-04 20:26:59,716 | INFO | DefaultSingletonBeanRegistry.java 444 | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:27:45,116 | INFO | DefaultCamelContext.java 1833 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutting down
+2019-08-04 20:27:45,118 | INFO | DefaultShutdownStrategy.java 173 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 20:27:45,125 | INFO | DefaultShutdownStrategy.java 610 | Route: route1 shutdown complete, was consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:27:45,130 | INFO | DefaultShutdownStrategy.java 223 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 20:27:45,136 | INFO | DefaultCamelContext.java 1907 | Apache Camel 2.13.0 (CamelContext: camel-1) uptime 5 minutes
+2019-08-04 20:27:45,137 | INFO | DefaultCamelContext.java 1908 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2019-08-04 20:27:45,137 | INFO | AbstractApplicationContext.java 1042 | Closing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:22:43 IST 2019]; root of context hierarchy
+2019-08-04 20:27:45,139 | INFO | DefaultSingletonBeanRegistry.java 444 | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:27:58,322 | INFO | AbstractApplicationContext.java 510 | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:27:58 IST 2019]; root of context hierarchy
+2019-08-04 20:27:58,391 | INFO | XmlBeanDefinitionReader.java 315 | Loading XML bean definitions from class path resource [context.xml]
+2019-08-04 20:27:59,451 | INFO | DefaultListableBeanFactory.java 598 | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:27:59,685 | INFO | DefaultCamelContext.java 1619 | Apache Camel 2.13.0 (CamelContext: camel-1) is starting
+2019-08-04 20:27:59,686 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2019-08-04 20:27:59,814 | INFO | DefaultTypeConverter.java 50 | Loaded 176 type converters
+2019-08-04 20:27:59,946 | INFO | DefaultCamelContext.java 1806 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2019-08-04 20:27:59,946 | INFO | DefaultCamelContext.java 1816 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-08-04 20:27:59,952 | INFO | FileEndpoint.java 83 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-08-04 20:27:59,953 | INFO | FileEndpoint.java 89 | Using default memory based idempotent repository with cache max size: 1000
+2019-08-04 20:27:59,992 | INFO | DefaultCamelContext.java 2310 | Route: route1 started and consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:27:59,993 | INFO | DefaultCamelContext.java 1654 | Total 1 routes, of which 1 is started.
+2019-08-04 20:27:59,994 | INFO | DefaultCamelContext.java 1655 | Apache Camel 2.13.0 (CamelContext: camel-1) started in 0.309 seconds
+2019-08-04 20:29:22,230 | INFO | DefaultCamelContext.java 1833 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutting down
+2019-08-04 20:29:22,232 | INFO | DefaultShutdownStrategy.java 173 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 20:29:22,239 | INFO | DefaultShutdownStrategy.java 610 | Route: route1 shutdown complete, was consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:29:22,241 | INFO | DefaultShutdownStrategy.java 223 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 20:29:22,254 | INFO | DefaultCamelContext.java 1907 | Apache Camel 2.13.0 (CamelContext: camel-1) uptime 5 minutes
+2019-08-04 20:29:22,254 | INFO | DefaultCamelContext.java 1908 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutdown in 0.023 seconds
+2019-08-04 20:29:22,255 | INFO | AbstractApplicationContext.java 1042 | Closing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:24:20 IST 2019]; root of context hierarchy
+2019-08-04 20:29:22,257 | INFO | DefaultSingletonBeanRegistry.java 444 | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:30:12,061 | INFO | DefaultCamelContext.java 1833 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutting down
+2019-08-04 20:30:12,065 | INFO | DefaultShutdownStrategy.java 173 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 20:30:12,081 | INFO | DefaultShutdownStrategy.java 610 | Route: route1 shutdown complete, was consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:30:12,084 | INFO | DefaultShutdownStrategy.java 223 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 20:30:12,097 | INFO | DefaultCamelContext.java 1907 | Apache Camel 2.13.0 (CamelContext: camel-1) uptime 5 minutes
+2019-08-04 20:30:12,097 | INFO | DefaultCamelContext.java 1908 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutdown in 0.036 seconds
+2019-08-04 20:30:12,098 | INFO | AbstractApplicationContext.java 1042 | Closing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:25:10 IST 2019]; root of context hierarchy
+2019-08-04 20:30:12,099 | INFO | DefaultSingletonBeanRegistry.java 444 | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:30:37,491 | INFO | DefaultCamelContext.java 1833 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutting down
+2019-08-04 20:30:37,493 | INFO | DefaultShutdownStrategy.java 173 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 20:30:37,497 | INFO | DefaultShutdownStrategy.java 610 | Route: route1 shutdown complete, was consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:30:37,498 | INFO | DefaultShutdownStrategy.java 223 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 20:30:37,502 | INFO | DefaultCamelContext.java 1907 | Apache Camel 2.13.0 (CamelContext: camel-1) uptime 5 minutes
+2019-08-04 20:30:37,502 | INFO | DefaultCamelContext.java 1908 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutdown in 0.011 seconds
+2019-08-04 20:30:37,502 | INFO | AbstractApplicationContext.java 1042 | Closing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:25:36 IST 2019]; root of context hierarchy
+2019-08-04 20:30:37,503 | INFO | DefaultSingletonBeanRegistry.java 444 | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:31:43,268 | INFO | DefaultCamelContext.java 1833 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutting down
+2019-08-04 20:31:43,273 | INFO | DefaultShutdownStrategy.java 173 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 20:31:43,285 | INFO | DefaultShutdownStrategy.java 610 | Route: route1 shutdown complete, was consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:31:43,293 | INFO | DefaultShutdownStrategy.java 223 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 20:31:43,301 | INFO | DefaultCamelContext.java 1907 | Apache Camel 2.13.0 (CamelContext: camel-1) uptime 5 minutes
+2019-08-04 20:31:43,301 | INFO | DefaultCamelContext.java 1908 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutdown in 0.033 seconds
+2019-08-04 20:31:43,302 | INFO | AbstractApplicationContext.java 1042 | Closing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:26:41 IST 2019]; root of context hierarchy
+2019-08-04 20:31:43,303 | INFO | DefaultSingletonBeanRegistry.java 444 | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy
+2019-08-04 20:32:59,999 | INFO | DefaultCamelContext.java 1833 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutting down
+2019-08-04 20:33:00,004 | INFO | DefaultShutdownStrategy.java 173 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-08-04 20:33:00,053 | INFO | DefaultShutdownStrategy.java 610 | Route: route1 shutdown complete, was consuming from: Endpoint[file://input?noop=true]
+2019-08-04 20:33:00,057 | INFO | DefaultShutdownStrategy.java 223 | Graceful shutdown of 1 routes completed in 0 seconds
+2019-08-04 20:33:00,063 | INFO | DefaultCamelContext.java 1907 | Apache Camel 2.13.0 (CamelContext: camel-1) uptime 5 minutes
+2019-08-04 20:33:00,064 | INFO | DefaultCamelContext.java 1908 | Apache Camel 2.13.0 (CamelContext: camel-1) is shutdown in 0.064 seconds
+2019-08-04 20:33:00,064 | INFO | AbstractApplicationContext.java 1042 | Closing org.springframework.context.support.ClassPathXmlApplicationContext@6aa8ceb6: startup date [Sun Aug 04 20:27:58 IST 2019]; root of context hierarchy
+2019-08-04 20:33:00,065 | INFO | DefaultSingletonBeanRegistry.java 444 | Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b9a4292: defining beans [routeBuilder,template,consumerTemplate,camel-1:beanPostProcessor,camel-1]; root of factory hierarchy

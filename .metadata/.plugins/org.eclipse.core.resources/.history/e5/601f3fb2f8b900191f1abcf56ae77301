@@ -1,0 +1,13 @@
+package com.camel;
+
+import org.apache.camel.CamelContext;
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Destroy{
+	public void destroy() {
+		AbstractApplicationContext ct = new ClassPathXmlApplicationContext("META-INF/spring/applicationContext.xml");
+		CamelContext cc = ct.getBean("cc", CamelContext.class);
+		
+	}
+}

@@ -1,0 +1,4 @@
+CREATE TABLE employee (
+  id VARCHAR(100) NOT NULL,
+  name VARCHAR(100) NOT NULL
+);

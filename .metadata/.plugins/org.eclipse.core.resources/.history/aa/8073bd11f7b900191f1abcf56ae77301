@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+	">
+
+	<bean id="cce" class="com.camel.CamelCustomException" />
+
+	<bean id="processor" class="com.camel.MyProcessor" />
+
+	<bean id="eh" class="com.camel.ExceptionHandler"></bean>
+
+	<bean id="shutdown"
+		class="org.apache.camel.impl.engine.DefaultShutdownStrategy">
+		<property name="timeout" value="2" />
+	</bean>
+
+	<camelContext shutdownRunningTask="CompleteAllTasks"
+		xmlns="http://camel.apache.org/schema/spring">
+
+
+		<!-- using onexception -->
+		<onException>
+			<exception>com.camel.CamelCustomException</exception>
+			<to uri="file:exceptionfile1"></to>
+
+		</onException>
+
+		<route>
+			<from uri="file:input1?noop=true" />
+			<process ref="processor"></process>
+			<to uri="file:output" />
+		</route>
+
+
+
+		<!-- using dotry and docatch <route> <from uri="file:input1?noop=true" 
+			/> <doTry> <process ref="processor"></process> <to uri="file:output" /> <doCatch> 
+			<exception>com.camel.CamelCustomException</exception> <to uri="file:exceptionfile"></to> 
+			</doCatch> </doTry> </route> -->
+	</camelContext>
+</beans>

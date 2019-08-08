@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName"
+			value="com.mysql.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/hibernate" />
+		<property name="username" value="root" />
+		<property name="password" value="admin123" />
+	</bean>
+
+	<!-- order bean is our business logic bean that creates new orders -->
+	<bean id="empBean" class="com.capgemini.EmpBean" />
+
+	<camelContext
+		xmlns="http://camel.apache.org/schema/spring">
+
+		<!-- route that generate new orders and insert them in the database -->
+		<route id="generateOrder-route">
+			<from uri="timer:foo?period=5s" />
+			<transform>
+				<method ref="empBean" method="generateEmp" />
+			</transform>
+			<to uri="hibernate:com.capgemini.Employee" />
+			<log message="Inserted new employee ${body.id}" />
+		</route>
+
+
+		<!-- route that process the orders by picking up new rows from the database 
+			and when done processing then update the row to mark it as processed -->
+		<route id="processOrder-employee">
+			<from uri="hibernate:com.capgemini.Employee?delay=1s" />
+			<to uri="bean:empBean?method=processEmp" />
+			<log message="${body}" />
+		</route>
+
+	</camelContext>
+
+	<!-- setup the Camel hibernate component -->
+	<bean id="hibernate"
+		class="org.apacheextras.camel.component.hibernate.HibernateComponent">
+		<property name="sessionFactory" ref="sessionFactory" />
+		<property name="transactionStrategy"
+			ref="springTransactionStrategy" />
+	</bean>
+
+	<!-- setup hibernate and spring to use transaction -->
+	<bean id="springTransactionStrategy"
+		class="org.apacheextras.camel.component.hibernate.SpringTransactionStrategy">
+		<constructor-arg ref="sessionFactory" />
+		<constructor-arg ref="transactionTemplate" />
+	</bean>
+
+	<!-- <bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	 -->
+	<bean id="transactionManager"
+        class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+    <property name="sessionFactory" ref="sessionFactory"/>
+</bean>
+
+	<bean id="transactionTemplate"
+		class="org.springframework.transaction.support.TransactionTemplate">
+		<property name="transactionManager" ref="transactionManager" />
+	</bean>
+
+	<!-- setup Hibernate session factory -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+
+		<!-- here we define the hibernate mapping files we use -->
+		<property name="mappingResources">
+			<list>
+				<value>employee.hbm.xml</value>
+			</list>
+		</property>
+
+		<!-- and here we have additional hibernate options -->
+		<property name="hibernateProperties">
+			<value>
+				hibernate.dialect=org.hibernate.dialect.MySQLDialect
+				hibernate.hbm2ddl.auto=update
+			</value>
+		</property>
+	</bean>
+
+</beans>

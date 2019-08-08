@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+	">
+
+	<bean id="cce" class="com.camel.CamelCustomException" />
+
+	<bean id="processor" class="com.camel.MyProcessor" />
+
+	<bean id="eh" class="com.camel.ExceptionHandler"></bean>
+
+	<camelContext
+		xmlns="http://camel.apache.org/schema/spring">
+
+		<route>
+			<from uri="file:input1?noop=true" />
+			<doTry>
+			<process ref="processor"></process>
+			<to uri="file:output" />
+			<doCatch>
+			<exception>com.camel.CamelCustomException</exception>
+			<to uri="file:exceptionfile"></to>
+			</doCatch>
+			</doTry>
+		</route>
+	</camelContext>
+</beans>

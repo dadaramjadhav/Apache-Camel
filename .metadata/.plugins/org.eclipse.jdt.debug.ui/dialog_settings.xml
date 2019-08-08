@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=3-exception-handling/src\/main\/java&amp;lt;com.camel{Demo.java[Demo&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=activemq/src\/main\/java&amp;lt;com.camel{MainApp.java[MainApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test-activemq/C:\/Users\/dadjadha\/.m2\/repository\/org\/apache\/camel\/camel-spring\/2.8.0\/camel-spring-2.8.0.jar&amp;lt;org.apache.camel.spring(Main.class[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test-activemq/C:\/Users\/dadjadha\/.m2\/repository\/org\/apache\/camel\/camel-core\/2.8.0\/camel-core-2.8.0.jar&amp;lt;org.apache.camel(Main.class[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=2-2-spring-dsl-example/src\/main\/java&amp;lt;com.camel{MainApp.java[MainApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=1-file-copy-example-spring/C:\/Users\/dadjadha\/.m2\/repository\/org\/apache\/camel\/camel-main\/3.0.0-M4\/camel-main-3.0.0-M4.jar&amp;lt;org.apache.camel.main(Main.class[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=2-file-copy-spring/C:\/Users\/dadjadha\/.m2\/repository\/org\/apache\/camel\/camel-core\/2.16.0\/camel-core-2.16.0.jar&amp;lt;org.apache.camel(Main.class[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=2-2-spring-dsl-example/C:\/Users\/dadjadha\/.m2\/repository\/org\/apache\/camel\/camel-core\/2.16.0\/camel-core-2.16.0.jar&amp;lt;org.apache.camel.main(Main.class[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=20-1-camel-karaf/C:\/Users\/dadjadha\/.m2\/repository\/org\/apache\/camel\/camel-spring\/2.16.0\/camel-spring-2.16.0.jar&amp;lt;org.apache.camel.spring(Main.class[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=1-file-copy-example-spring/C:\/Users\/dadjadha\/.m2\/repository\/org\/apache\/camel\/camel-spring\/3.0.0-M4\/camel-spring-3.0.0-M4.jar&amp;lt;org.apache.camel.spring(Main.class[Main&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="671"/>
+			<item key="DIALOG_Y_ORIGIN" value="188"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

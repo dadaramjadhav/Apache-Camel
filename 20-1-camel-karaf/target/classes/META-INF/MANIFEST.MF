@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: camelkaraf
+Bundle-Name: camelkaraf
+Bundle-Version: 1.1.0
+Built-By: dadjadha
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1565204467825
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-1.15.0
+Build-Jdk: 1.8.0_131
+
